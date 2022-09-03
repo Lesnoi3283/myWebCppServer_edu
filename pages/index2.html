@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../files/style.css">
+</head>
+<body>
+  
+  <div class="container">
+    <form action="" method="get" id="form2">
+      <div class="input-grid">
+        <div class="input-item-row">
+          Результат № 1
+        </div>
+        <div class="input-item-row">
+          Результат № 2
+        </div>
+      </div>
+
+      <div class="input-item">
+        <textarea name="messages" class="input-textarea" cols="30" rows="10"></textarea>
+      </div>
+      <div class="input-item">
+        <!-- <button class="input-btn" type="submit">Отправить</button> -->
+        <a class="input-btn"
+           onclick="document.getElementById('form2').submit()"
+        >Отправить</a>
+      </div>
+    </form>
+  </div>
+
+  <script src="../files/scrupt.js"></script>
+</body>
+</html>
